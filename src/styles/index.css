@@ -1,0 +1,49 @@
+
+body {
+
+    background-size: 100%; /* Современные браузеры */
+
+    background: url(https://designpickle-resources.s3.us-east-2.amazonaws.com/2020/Zoom+Backgrounds/April/20_DesignPickle_Zoom_Background-1.jpg) no-repeat center center fixed;
+}
+.paginator{
+    text-align: center;
+    padding: 20px;
+
+}
+button {
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    border-color: rgba(221, 221, 221, 1);
+    border-radius: 20px;
+}
+
+td, th {
+    text-align: left;
+   padding: 5px;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+table {
+    width: 100%;
+
+    font-family: arial, sans-serif;
+}
+#UsersForm{
+    padding-top: 100px;
+}
+#HeaderForm {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(221, 221, 221, 1);
+    height: 100px;
+    top: -3px;
+}
+.usersForm tr{
+    background: rgba(161, 155, 155, .7)
+}
+.usersForm tr:hover{
+    background-color: #dddddd;
+}
